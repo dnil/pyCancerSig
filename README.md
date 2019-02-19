@@ -1,10 +1,10 @@
 # pyCancerSig
-## A python package for deciphering cancer signatures.
+# A python package for deciphering cancer signatures.
 
 Comprehensive cancer signatures with a main workflow in nextflow, and reusable modules written in python.
 Integrate SNV, SV and MSI profiles in signatures decomposed using non-negative matrix factorisation, and produce production ready pdf reports. 
 
-### Main workflow usage
+## Main workflow usage
 
     =========================================
               Cancer Signature Workflow
@@ -34,7 +34,7 @@ Integrate SNV, SV and MSI profiles in signatures decomposed using non-negative m
       --freq_cutoff                 Cut-off criteria for variants to be included in the profile
       --out_dir                     The output directory where the results will be saved
       
-### Installation 
+## Installation 
 
     ./install.sh
 
@@ -46,13 +46,18 @@ or
 
     pip install .
     
-### Setup
+## Setup
 
-#### (Optional): Edit nexflow.config
+### (Optional): Edit nexflow.config
 
-#### (Optional): Prepare genome files
+### (Optional): Prepare genome files
 
-#### (Optional): FindSV installation
+### (Optional): FindSV installation
 
-#### (Optional): MSIsensor installation
+### (Optional): MSIsensor installation
+
+## Using submodules - sample procedures
+
+### Producing a report from one or more samples, using a precalulated signature matrix input
+
 
