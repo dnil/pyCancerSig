@@ -60,4 +60,14 @@ or
 
 ### Producing a report from one or more samples, using a precalulated signature matrix input
 
+## References
 
+- Ludmil et al 
+- Eisfeldt et al
+- Ding et al
+
+## License
+
+## Citing the software 
+If you use this program, please cite
+- Thutkawkorapin et al, unpublished manuscript.
